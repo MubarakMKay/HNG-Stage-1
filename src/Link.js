@@ -1,8 +1,8 @@
 const Link = (props) => {
     return ( 
         <div className="link">
-            <a className="linkButton" href={props.site} id={props.idSite}>
-                {props.displaySite}
+            <a className="linkButton" href={props.site} id={props.siteId} title={props.siteTitle}>
+                {props.siteDisplay}
             </a>
         </div>
      );
