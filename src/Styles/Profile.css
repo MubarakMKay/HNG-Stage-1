@@ -1,9 +1,23 @@
 @media screen and (min-width: 768px) {
+    #shareMobile {
+        display: none;
+    }
     .profile {
-        height: 142px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #shareWeb {
+        position: absolute;
+        right: 23%;
+        top: -20px;
+    }
+    .profileOriginal {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        row-gap: 24px;
         align-items: center;
     }
     #profile__img {
@@ -22,11 +36,25 @@
     }
 }
 @media screen and (max-width: 768px) {
+    #shareWeb {
+        display: none;
+    }
     .profile {
-        height: 140px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #shareMobile {
+        position: absolute;
+        right: 5%;
+        top: -20px;
+    }
+    .profileOriginal {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        row-gap: 24px;
         align-items: center;
     }
     #profile__img {
