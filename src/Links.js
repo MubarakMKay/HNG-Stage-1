@@ -1,6 +1,7 @@
 import Link from './Link';
 import Slack from "./Assets/Slack.png"
 import GitHub from "./Assets/GitHub.png"
+import "./Styles/Links.css"
 
 const Links = () => {
     return ( 

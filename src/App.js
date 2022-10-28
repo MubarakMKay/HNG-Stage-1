@@ -6,9 +6,13 @@ import Footer from './Footer';
 function App() {
   return (
     <div className="App">
-      <Profile />
-      <Links />
-      <Footer />
+      <div className="appMain">
+        <Profile />
+        <Links />
+      </div>
+      <div className="appFooter">
+        <Footer />
+      </div>
     </div>
   );
 }

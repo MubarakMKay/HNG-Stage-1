@@ -1,4 +1,5 @@
 import Mubaraq from './Assets/Mubaraq.jpg'
+import "./Styles/Profile.css"
 
 const Profile = () => {
     return ( 

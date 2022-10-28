@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px) {
+    .profile {
+        height: 142px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #profile__img {
+        width: 10%;
+        border-radius: 50%;
+    }
+    #twitter {
+        margin: 0;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #101828;
+    }
+    #slack {
+        /* visibility: hidden; */
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+  
+}
