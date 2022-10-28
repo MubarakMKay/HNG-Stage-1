@@ -8,7 +8,6 @@
     flex-direction: column;
     row-gap: 48px;
     align-items: center;
-    border: 1px solid black;
   }
   .appMain {
     display: flex;
@@ -22,5 +21,23 @@
   }
 }
 @media screen and (max-width: 768px) {
-  
+  .App {
+    min-width: 300px;
+    width: 80%;
+    margin: auto;
+    padding: 64px 4.5% 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: center;
+  }
+  .appMain {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: center;
+  }
+  .appFooter {
+    width: 100%;
+  }
 }

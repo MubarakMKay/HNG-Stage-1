@@ -18,10 +18,29 @@
         color: #101828;
     }
     #slack {
-        /* visibility: hidden; */
         display: none;
     }
 }
 @media screen and (max-width: 768px) {
-  
+    .profile {
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #profile__img {
+        width: 23.4%;
+        border-radius: 50%;
+    }
+    #twitter {
+        margin: 0;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #101828;
+    }
+    #slack {
+        display: none;
+    } 
 }
