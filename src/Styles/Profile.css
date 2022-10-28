@@ -4,10 +4,7 @@
     }
     .profile {
         position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
+        width: 100%;
     }
     #shareWeb {
         position: absolute;
@@ -41,10 +38,7 @@
     }
     .profile {
         position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
+        width: 100%;
     }
     #shareMobile {
         position: absolute;
@@ -58,7 +52,7 @@
         align-items: center;
     }
     #profile__img {
-        width: 23.4%;
+        width: 10%;
         border-radius: 50%;
     }
     #twitter {
