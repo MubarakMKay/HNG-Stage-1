@@ -1,18 +1,11 @@
-import './Styles/App.css';
-import Profile from './Profile';
-import Links from './Links';
-import Footer from './Footer';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Home';
+
 
 function App() {
   return (
     <div className="App">
-      <div className="appMain">
-        <Profile />
-        <Links />
-      </div>
-      <div className="appFooter">
-        <Footer />
-      </div>
+      <Home />
     </div>
   );
 }
