@@ -1,11 +1,11 @@
-import "./Styles/Link.css"
+import "./Styles/ActualLink.css"
 
-const Link = (props) => {
+const ActualLink = (props) => {
     return ( 
-        <div className="link">
+        <div className="actualLink">
             <a className="linkButton" href={props.site} id={props.siteId} title={props.siteTitle}>{props.siteDisplay}</a>
         </div>
      );
 }
  
-export default Link;
+export default ActualLink;

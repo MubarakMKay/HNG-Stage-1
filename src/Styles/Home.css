@@ -22,7 +22,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .App {
+  .home {
     min-width: 300px;
     width: 80%;
     margin: auto;
