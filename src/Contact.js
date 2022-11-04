@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import "./Styles/Contact.css"
 
-const Contact = () => {
+const Contact = (props) => {
     return ( 
         <div className="contact">
             <div className="contactHeader">
@@ -26,8 +26,8 @@ const Contact = () => {
                     <textarea type="text" id="message" name="message" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea> 
                 </div>
                 <div className="checkbox">
-                    <input type="checkbox" id="checkbox" name="checkbox" value="You agree to providing your data to {name} who may contact you."/>
-                    <label for="checkbox">You agree to providing your data to name who may contact you.</label>
+                    <input type="checkbox" id="checkbox" name="checkbox" value={`You agree to providing your data to ${props.name} who may contact you.`}/>
+                    <label for="checkbox">You agree to providing your data to {props.name} who may contact you.</label>
                 </div>
                 <div className="submit">
                     <input type="submit" id="btn__submit" name="submit" value="Send Message"/>
